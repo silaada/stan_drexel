@@ -8,6 +8,8 @@ options(mc.cores = parallel::detectCores())
 
 util <- new.env()
 source('stan_utility.R', local=util)
+setwd('/home/sila/stan_drexel/material/4 - logistic_regression/')
+
 
 c_light <- c("#DCBCBC")
 c_light_highlight <- c("#C79999")
